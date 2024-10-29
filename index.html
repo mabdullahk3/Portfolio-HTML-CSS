@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "kANyLDTpJJlAF-0lA",
+            });
+        })();
+    </script>
+</head>
+<body>
+
+    <!--- Page Loader Start --->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--- Page Loader End --->
+
+    <!---- Background Circles Start --->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+    <!---- Background Circles End --->
+    
+    <!--- Overlay Start--->
+    <div class="overlay"></div>
+    <!--- Overlay End--->
+    
+    <!-- Main Start -->
+    <div class="main hidden">
+        <!--- Header Start --->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">home</a></li>
+                                <li><a href="#about" class="nav-item link-item">about</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--- Header End --->
+
+        <!-- Home Section Start -->
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Muhammad Abdullah</h1>
+                        <h2>Software Engineer</h2>
+                        <a href="#about" class="btn link-item">More About Me</a>
+                        <a href="#portfolio" class="btn link-item">Portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="images/profile.png" alt="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home Section End -->
+
+        <!-- About Section Start -->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="images/profile.png" alt="about-image">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>As a Cloud Architect Intern at iVolve Technologies, I designed and deployed cloud solutions tailored to client needs, honing my skills in cloud services, DevOps, and database design with guidance from expert mentors. My Data Analyst internship at Systems Limited further sharpened my analytical skills as I cleaned, visualized, and interpreted large datasets to fuel business strategies. Now, as a Software Engineering student at NUCES, I’m passionate about cloud computing and data analytics, aiming to drive innovation and transformation in the IT industry.</p>
+                        <h2>skills</h2>
+                        <div class="skills">
+                            <div class="skill-item">html</div>
+                            <div class="skill-item">css</div>
+                            <div class="skill-item">javascript</div>
+                            <div class="skill-item">tailwind</div>
+                            <div class="skill-item">bootstrap</div>
+                            <div class="skill-item">c++</div>
+                            <div class="skill-item">python</div>
+                            <div class="skill-item">dart</div>
+                            <div class="skill-item">flutter</div>
+                            <div class="skill-item">figma</div>
+                            <div class="skill-item">java</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">education</button>
+                            <button type="button" class="tab-item" data-target="#experience">experience</button>
+                        </div>
+
+                        <!-- Education Start -->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2021 - 2025</span>
+                                    <h4>bachelor of software engineering - <span>FAST NUCES</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2019 - 2021</span>
+                                    <h4>hssc pre-engineering - <span>Concepts College of Sciences</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2017 - 2019</span>
+                                    <h4>fsc sciences - <span>Fauji Foundation Model School</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Education End -->
+
+                        <!-- Experience Start -->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">July,2024 - Aug,2024</span>
+                                    <h4>data analytics intern - <span>Systems Limited</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">July,2023 - Sep,2023</span>
+                                    <h4>cloud architect intern - <span>iVolve Technologies</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Experience End -->
+
+                        <a href="resources/cv.pdf" target="_blank" class="btn">download cv</a>
+                        <a href="#contact" class="btn link-item">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project/weather.png" alt="portfolio-image">
+                    </div>
+                    <h3 class="portfolio-item-title">Weather App</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>A simple and responsive web-based weather app built with HTML, CSS, and JavaScript, utilizing the OpenWeather API to provide real-time weather updates for any city worldwide. Users can view temperature, weather conditions, humidity, and wind speed, all in a clean and user-friendly interface. Perfect for quick, accurate, and on-the-go weather information!</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>24 Oct 2024</span></li>
+                                <li>Technologies used - <span>HTML, CSS, JavaScript, OpenWeather API</span></li>
+                                <li>Github - <span><a href="https://github.com/mabdullahk3/WeatherWebApp" target="_blank">https://github.com/mabdullahk3/WeatherWebApp</a></span></li>
+                                <li>View Online - <span><a href="https://weather-web-app-woad.vercel.app/" target="_blank">https://weather-web-app-woad.vercel.app/</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project/binarify.png" alt="portfolio-image">
+                    </div>
+                    <h3 class="portfolio-item-title">Binarify</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>A lightweight Flutter app designed to instantly convert decimal numbers into binary format. With a simple, user-friendly interface, users can input any decimal number and get the binary equivalent with a single tap—ideal for students, programmers, and anyone needing quick decimal-to-binary conversions!</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>15 March 2024</span></li>
+                                <li>Technologies used - <span>Flutter, Dart</span></li>
+                                <li>Github - <span><a href="https://github.com/mabdullahk3/Flutter-Binarify" target="_blank">https://github.com/mabdullahk3/Flutter-Binarify</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project/notes.png" alt="portfolio-image">
+                    </div>
+                    <h3 class="portfolio-item-title">Notes</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>A sleek and intuitive Flutter notes app for creating, organizing, and managing notes on the go. With a clean design and offline support, it’s perfect for jotting down thoughts, tasks, or reminders anytime, anywhere.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>22 Aug 2024</span></li>
+                                <li>Technologies used - <span>Flutter, Dart</span></li>
+                                <li>Github - <span><a href=https://github.com/mabdullahk3/Flutter-NotesApp target="_blank">https://github.com/mabdullahk3/Flutter-NotesApp</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project/word-bridge.png" alt="portfolio-image">
+                    </div>
+                    <h3 class="portfolio-item-title">Word Bridge</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>WordBridge is a mobile app designed to facilitate quick and easy translation between various languages. Users can input text in one language and receive the translation in their desired language.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>8 March 2024</span></li>
+                                <li>Technologies used - <span>Flutter, Dart, Google Translate API</span></li>
+                                <li>Github - <span><a href=https://github.com/mabdullahk3/Flutter-WordBridge target="_blank">https://github.com/mabdullahk3/Flutter-WordBridge</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project/spell-corrector.png" alt="portfolio-image">
+                    </div>
+                    <h3 class="portfolio-item-title">Python Spell Corrector</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>A Python-based spell corrector that automatically detects and corrects spelling errors in text. Leveraging the use of libraries, it quickly processes input to provide accurate suggestions, making it ideal for text preprocessing, content editing, or enhancing user input accuracy. Simple, efficient, and perfect for applications requiring text correction.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>7 March 2024</span></li>
+                                <li>Technologies used - <span>Python, TextBlob library, NLTK library</span></li>
+                                <li>Github - <span><a href=https://github.com/mabdullahk3/Python-SpellCorrector target="_blank">https://github.com/mabdullahk3/Python-SpellCorrector</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project/task-management.png" alt="portfolio-image">
+                    </div>
+                    <h3 class="portfolio-item-title">Task Management System</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>A robust backend for a Task Management System built with Node.js, designed to handle tasks efficiently and securely. Featuring RESTful API endpoints, it enables users to create, update, delete, and retrieve tasks seamlessly. The backend supports user authentication, role-based access control, and real-time updates, making it an ideal foundation for collaborative productivity apps. Scalable, fast, and optimized for handling task management workflows across various user environments.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>13 March 2024</span></li>
+                                <li>Technologies used - <span>Node JS</span></li>
+                                <li>Github - <span><a href=https://github.com/mabdullahk3/Nodejs-TaskManagementSystem target="_blank">https://github.com/mabdullahk3/Nodejs-TaskManagementSystem</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section End -->
+        
+        <!-- Contact Section Start-->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" id="name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" placeholder="Email" id="email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" id="subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" id="message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn" onclick="sendMail()">send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>muh.abdullahk12@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>(+92) 332 3677775</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Connect with me</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/muhammad-abdullah-khan-9b262b2b5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/mabdullahk3" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End-->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="project/binarify.png" alt="portfolio-image">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
